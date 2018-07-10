@@ -10,7 +10,7 @@ public class BuilderPatternDemo {
 		System.out.println("Total Cost: " + meal.getCost());
 		
 		meal = builder.prepareChickenMeal();
-		System.out.println("Veg Meal");
+		System.out.println("Chicken Meal");
 		meal.showItems();
 		System.out.println("Total Cost: " + meal.getCost());
 	}
